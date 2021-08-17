@@ -21,7 +21,7 @@ h3 {
   color: #11999E;
 }
 a {
-  color: #11999E;
+  color: #055052;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
@@ -39,7 +39,7 @@ p {
   line-height: 2;
 }
 /***********************************CLASS**************************************/
-.h2-1 {
+.web-developer {
   font-weight: normal;
 }
 .top-container {
@@ -88,7 +88,7 @@ p {
   padding: 50px 0 20px;
 }
 
-.p3 {
+.contac-intro {
   margin: 50px auto 30px auto;
   width: 35%;
 }
@@ -110,7 +110,7 @@ p {
      -webkit-border-radius: 20px;
      -moz-border-radius: 20px;
      border-radius: 20px;
-     color: #FFFFFF;
+     color: #EAF6F6;
      font-family: 'Montserrat', sans-serif;;
      font-size: 16px;
      font-weight: 100;
@@ -121,4 +121,17 @@ p {
      cursor: pointer;
      text-align: center;
      margin: 30px auto 50px auto;
+  }
+  .btn:hover {
+     border: solid #66BFBF 1px;
+     background: #66BFBF;
+     background-image: -webkit-linear-gradient(top, #66BFBF, #1E62D0);
+     background-image: -moz-linear-gradient(top, #66BFBF, #1E62D0);
+     background-image: -ms-linear-gradient(top, #66BFBF, #1E62D0);
+     background-image: -o-linear-gradient(top, #66BFBF, #1E62D0);
+     background-image: -webkit-gradient(to bottom, #66BFBF, #1E62D0);
+     -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+     border-radius: 20px;
+     text-decoration: none;
   }
